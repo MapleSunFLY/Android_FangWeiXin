@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">微信</string>
+
+    <string name="main_menu_search">搜索</string>
+    <string name="main_menu_chat">发起群聊</string>
+    <string name="main_menu_add_person">添加朋友</string>
+    <string name="main_menu_richscan">扫一扫</string>
+    <string name="main_menu_money">收付款</string>
+    <string name="main_menu_help">帮助与反馈</string>
+    <string name="main_radiobutton_weixing">微信</string>
+    <string name="main_radiobutton_contects">通讯录</string>
+    <string name="main_radiobutton_find">发现</string>
+    <string name="main_radiobutton_my">我</string>
+
+
+</resources>
