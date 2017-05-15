@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/fragment_main_recycler_background"
+    android:layout_marginTop ="@dimen/fragment_main_recycler_view_item_margin"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_main_recycler_view_item_my_height">
+
+    <RelativeLayout
+        android:id="@+id/recyclerview_item_my_relative"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:layout_weight="5">
+
+        <ImageView
+            android:id="@+id/recyclerview_item_my_photo"
+            android:layout_width="@dimen/fragment_main_recycler_view_item_my_img_wh"
+            android:layout_height="@dimen/fragment_main_recycler_view_item_my_img_wh"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/fragment_main_recycler_view_item_my_margin"
+            android:layout_marginStart="@dimen/fragment_main_recycler_view_item_my_margin"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            style="@style/WrapWrap"
+            android:textSize="@dimen/fragment_main_recycler_view_item_name_textsize"
+            android:textStyle="bold"
+            android:text="测试"
+            android:id="@+id/recyclerview_item_my_name"
+            android:layout_alignTop="@+id/recyclerview_item_my_photo"
+            android:layout_toRightOf="@+id/recyclerview_item_my_photo"
+            android:layout_toEndOf="@+id/recyclerview_item_my_photo"
+            android:layout_marginLeft="@dimen/fragment_main_recycler_view_item_my_margin"
+            android:layout_marginStart="@dimen/fragment_main_recycler_view_item_my_margin" />
+        <TextView
+            style="@style/WrapWrap"
+            android:textSize="@dimen/fragment_main_recycler_view_item_num_textsize"
+            android:text="测试"
+            android:id="@+id/recyclerview_item_my_number"
+            android:layout_marginTop ="@dimen/fragment_main_recycler_view_item_text_margintop"
+            android:layout_below="@id/recyclerview_item_my_name"
+            android:layout_alignLeft="@id/recyclerview_item_my_name"
+            android:layout_alignStart="@id/recyclerview_item_my_name" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@null"
+        android:id="@+id/recyclerview_item_my_two_relative"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8">
+        <ImageView
+            android:id="@+id/recyclerview_item_my_two"
+            android:background="@null"
+            android:src="@mipmap/ic_launcher"
+            style="@style/WrapWrap"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>

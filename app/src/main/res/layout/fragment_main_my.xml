@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:background="@color/fragment_main_background"
     style="@style/MatchMatch">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_main_my_recycler"
+        style="@style/MatchMatch">
+    </android.support.v7.widget.RecyclerView>
 
 
 

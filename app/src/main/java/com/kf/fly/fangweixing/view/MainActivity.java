@@ -1,4 +1,4 @@
-package com.kf.fly.fangweixing;
+package com.kf.fly.fangweixing.view;
 
 
 import android.os.Bundle;
@@ -9,13 +9,21 @@ import android.view.MenuItem;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import com.kf.fly.fangweixing.R;
 import com.kf.fly.fangweixing.android.view.BaseCompatActivity;
+import com.kf.fly.fangweixing.view.fragment.ContactsFragment;
+import com.kf.fly.fangweixing.view.fragment.FindFragment;
+import com.kf.fly.fangweixing.view.fragment.MyFragment;
 import com.kf.fly.fangweixing.view.fragment.appstore.CommonViewPagerAdapter;
 import com.kf.fly.fangweixing.view.fragment.weixin.WeiXingFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+
+/**
+ * Created by "FLY" on 2017/4/26.
+ */
 public class MainActivity extends BaseCompatActivity {
 
     @BindView(R.id.app_mian_viewpager)
@@ -90,9 +98,9 @@ public class MainActivity extends BaseCompatActivity {
 
         CommonViewPagerAdapter adapter = new CommonViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new WeiXingFragment(), getString(R.string.main_radiobutton_weixing));
-        adapter.addFragment(new WeiXingFragment(), getString(R.string.main_radiobutton_weixing));
-        adapter.addFragment(new WeiXingFragment(), getString(R.string.main_radiobutton_weixing));
-        adapter.addFragment(new WeiXingFragment(), getString(R.string.main_radiobutton_weixing));
+        adapter.addFragment(new ContactsFragment(), getString(R.string.main_radiobutton_contects));
+        adapter.addFragment(new FindFragment(), getString(R.string.main_radiobutton_find));
+        adapter.addFragment(new MyFragment(), getString(R.string.main_radiobutton_my));
         mViewPager.setAdapter(adapter);
         mViewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 

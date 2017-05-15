@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android_FangWeiXing.iml" filepath="$PROJECT_DIR$/Android_FangWeiXing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_FangWeiXin.iml" filepath="$PROJECT_DIR$/Android_FangWeiXin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/view/view.iml" filepath="$PROJECT_DIR$/view/view.iml" />
     </modules>

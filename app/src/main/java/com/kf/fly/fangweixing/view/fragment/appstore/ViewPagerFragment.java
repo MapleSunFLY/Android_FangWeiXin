@@ -8,6 +8,19 @@ import android.view.View;
 import com.kf.fly.fangweixing.android.view.frament.BaseCompatFragment;
 
 /**
+ * Created by "FLY" on 2017/4/26.
+ * <pre>
+ *     /\__/\
+ *    /`    '\
+ *  ≈≈≈ 0  0 ≈≈≈ Hello world!
+ *    \  --  /
+ *   /        \
+ *  /          \
+ * |            |
+ *  \  ||  ||  /
+ *   \_oo__oo_/≡≡≡≡≡≡≡≡o
+ *
+ * </pre>
  *
  * Viewpager + Fragment情况下，fragment的生命周期因Viewpager的缓存机制而失去了具体意义
  * 该抽象类自定义一个新的回调方法，当fragment可见状态改变时会触发的回调方法，介绍看下面

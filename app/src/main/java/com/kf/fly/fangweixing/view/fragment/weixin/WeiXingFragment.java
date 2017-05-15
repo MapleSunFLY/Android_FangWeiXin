@@ -6,7 +6,7 @@ import com.kf.fly.fangweixing.R;
 import com.kf.fly.fangweixing.view.fragment.appstore.ViewPagerFragment;
 
 /**
- * Created by "sinlov" on 2017/4/11.
+ * Created by "FLY" on 2017/4/26.
  */
 public class WeiXingFragment extends ViewPagerFragment {
 
